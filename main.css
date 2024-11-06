@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    animation-name: iphone; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+.box__container{
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    background-color: white;
+    padding: ;
+}
+/* }
+@keyframes iphone{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: black;
+    }
+    100%{
+        background-color: yellow;
+    }
+} */
+.box{
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+   background-color: rgb(255, 0, 0);
+    transform: translate(0,0);
+    animation-name: kotta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  
+}
+
+
+
+@keyframes kotta{
+    0%{
+       transform: translate(0);
+    }
+    25%{
+       transform: translateX(500px);
+    }
+    50%{
+        transform: translate(500px, 500px);
+    }
+    75%{
+        transform: translate( 0,500px);
+    }
+    100%{
+    
+    }
+}
+
+
+
+
+
